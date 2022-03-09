@@ -1,9 +1,9 @@
 import React from 'react';
 import './Main.css';
-import '../Zodiac/Animal.css';
+import '../Zodiac/Zodiac.css';
 
 import Zodiac from '../Zodiac/Zodiac.js';
-import background from '../../background.png';
+import background from '../../background.jpg';
 import { zodiac } from '../../data.js';
 
 export default function Main() {

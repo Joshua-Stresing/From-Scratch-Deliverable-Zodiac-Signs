@@ -7,5 +7,5 @@ export default function Zodiac({ name, dates }) {
       <span className="name">{name}</span>
       <span>{dates}</span>
     </div>
-  )
+  );
 }
