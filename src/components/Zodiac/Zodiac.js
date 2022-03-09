@@ -4,7 +4,7 @@ export default function Zodiac({ name, dates }) {
   return (
     <div className="zodiac">
       <img alt={name} src={`${process.env.PUBLIC_URL}/pics/${name}.png`} />
-      <span className="name">{name}</span>
+      <h1 className="name">{name}</h1>
       <span>{dates}</span>
     </div>
   );
