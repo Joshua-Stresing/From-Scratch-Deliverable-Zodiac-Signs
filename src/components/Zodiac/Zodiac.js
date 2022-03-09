@@ -1,10 +1,11 @@
 import React from 'react';
 
-export default function Animal({ name, says, top, left, type }) {
-  return ( 
-    <div className="animal" style={{ top, left }}>
-      <img alt={name} src={`${process.env.PUBLIC_URL}/animals/${type}.svg`} />
+export default function Zodiac({ name, dates }) {
+  return (
+    <div className="zodiac">
+      <img alt={name} src={`${process.env.PUBLIC_URL}/images/${name}.png`} />
       <span className="name">{name}</span>
-      <span>{says}</span>
-    </div>);
+      <span>{dates}</span>
+    </div>
+  )
 }

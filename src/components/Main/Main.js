@@ -2,15 +2,15 @@ import React from 'react';
 import './Main.css';
 import '../Zodiac/Animal.css';
 
-import Animal from '../Zodiac/Zodiac.js';
+import Zodiac from '../Zodiac/Zodiac.js';
 import background from '../../background.png';
-import { animals } from '../../data.js';
+import { zodiac } from '../../data.js';
 
 export default function Main() {
   return (
     <main style={{ backgroundImage: `url(${background})` }}>
-      {animals.map((dinner) => (
-        <Animal key={dinner.name} {...dinner} />
+      {zodiac.map((sign) => (
+        <Zodiac key={sign.name} {...sign} />
       ))}
     </main>
   );
