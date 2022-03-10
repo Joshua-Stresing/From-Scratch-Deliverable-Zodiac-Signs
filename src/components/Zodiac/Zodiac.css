@@ -1,0 +1,12 @@
+.zodiac {
+    width: 150px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.zodiac img {
+    width: 75px;
+}
